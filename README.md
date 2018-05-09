@@ -34,4 +34,4 @@ If Spin is used without a reference planet the inhabited planet is being taken a
 | Uranus | U | SpU | mSpU |
 | Neptune | N | SpN | mSpN |
 
-For using OPT on other planets outside of our solar system the planet name can be added as suffix to the unit with UpperCamelCasing. For Kepler-22b the units are SpKepler22B or mSpKepler22B, for COROT-7b it is SpCorot7B or mSpCorot7B.
+For using OPT on other planets outside of our solar system the planet name can be added as suffix to the unit with [UpperCamelCasing](https://en.wikipedia.org/wiki/Camel_case). For Kepler-22b the units are SpKepler22B or mSpKepler22B, for COROT-7b it is SpCorot7B or mSpCorot7B.
