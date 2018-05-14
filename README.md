@@ -1,4 +1,4 @@
-# Specification
+# Open Planetary Time Specification
 
 Specification for Open Planetary Time.
 
