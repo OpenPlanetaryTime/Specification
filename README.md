@@ -27,6 +27,7 @@ If Spin is used without a reference planet the inhabited planet is being taken a
 | Planet  | Planet Acronym | Unit/Symbol for Spin | Unit/Symbol for Millispin |
 |:---|:---|:---|:---|
 | Mercury (Hermes) | H | SpH | mSpH |
+| Venus | V | SpV | mSpV |
 | Earth | E | SpE | mSpE |
 | Mars | M | SpM | mSpM |
 | Jupiter | J | SpJ | mSpJ |
