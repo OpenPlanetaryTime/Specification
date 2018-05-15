@@ -4,12 +4,12 @@
 
 Open Planetary Time (OPT) is a time system that splits the day into 1,000 equals slices. OPT works on every planet, dwarf planet or minor planet that has a mean solar time.
 It is independent from time zones and does not have a daylight saving time.
-The basic unit is Spin (Sp). On earth one Spin is exactly 24 hours. Other time spans are described with unit prefixes of the metric system, e.g. Millispin (mSp). On earth one Millispin is 1.44 minutes.
+The basic unit is Spin (Sp). On earth one Spin is exactly 24 hours. Other time spans are described with unit prefixes of the metric system, e.g. Millispin (mSp). On earth one Millispin equals 1.44 minutes.
 The OPT can describe time spans and concrete times. For example _mSp 500_ on earth equals 12:00 UTC. _"The process lasts 1 Spin"_ means it takes one day.
 
 ## Units
 
-The common units are Spin (Sp) and Millispin (mSp). The symbol Sp is used because there are no conflicts with the international system of units (s = Seconds, S = Siemens).
+The main units are Spin (Sp) and Millispin (mSp). The symbol Sp does not conflict with the international system of units (s = Seconds, S = Siemens).
 
 | Unit  | Symbol | Earth equivalent | Mars equivalent |
 |:---|:---|:---|:---|
