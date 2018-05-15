@@ -1,7 +1,5 @@
 # Open Planetary Time Specification
 
-Specification for Open Planetary Time.
-
 ## Abstract
 
 Open Planetary Time (OPT) is a time system that splits the day into 1,000 equals slices. OPT works on every planet, dwarf planet or minor planet that has a mean solar time.
