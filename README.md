@@ -1,5 +1,10 @@
 # Open Planetary Time Specification
 
+- [Abstract](#abstract)
+- [Units](#units)
+- [Calculation](#calculation)
+- [Planet References](#planet-references)
+
 ## Abstract
 
 Open Planetary Time (OPT) is a time system that splits the day into 1,000 equals slices. OPT works on every planet, dwarf planet or minor planet that has a mean solar time.
@@ -17,6 +22,19 @@ The main units are Spin (Sp) and Millispin (mSp). The symbol Sp does not conflic
 | Millispin | mSp | 0.001 Day or 1.44 Minutes | 0.001 Sol or 1.48 Minutes |
 
 All other combinations of the metric unit prefixes like Megaspin (MSp) or Microspin (μSp) are also possible. The units Decispin (dSp) and Centispin (cSp) are correct units but are not recommended to use.
+
+## Calculation
+
+Hours, Minutes and Seconds are in UTC.
+
+```text
+Sp = (Hours * 3600 + Minutes * 60 + Seconds) / 86400.0
+mSp = (Hours * 3600 + Minutes * 60 + Seconds) / 86.4
+```
+
+Example:
+
+`18:30 UTC` ≙ `(18 * 3600 + 30 * 60) / 86.4` = `770.8`
 
 ## Planet References
 
