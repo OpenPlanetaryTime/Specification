@@ -1,6 +1,9 @@
 # Open Planetary Time Specification
 
-[TOC]
+- [Abstract](#abstract)
+- [Units](#units)
+- [Calculation](#calculation)
+- [Planet References](#planet-references)
 
 ## Abstract
 
@@ -23,10 +26,12 @@ All other combinations of the metric unit prefixes like Megaspin (MSp) or Micros
 ## Calculation
 
 Hours, Minutes and Seconds are in UTC.
+
 `Sp = (Hours * 3600 + Minutes * 60 + Seconds) / 86400.0`
 `mSp = (Hours * 3600 + Minutes * 60 + Seconds) / 86.4`
 
 Example:
+
 `18:30 UTC` ≙ `(18 * 3600 + 30 * 60) / 86.4` = `770.8`
 
 ## Planet References
