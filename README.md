@@ -27,8 +27,10 @@ All other combinations of the metric unit prefixes like Megaspin (MSp) or Micros
 
 Hours, Minutes and Seconds are in UTC.
 
-`Sp = (Hours * 3600 + Minutes * 60 + Seconds) / 86400.0`
-`mSp = (Hours * 3600 + Minutes * 60 + Seconds) / 86.4`
+```text
+Sp = (Hours * 3600 + Minutes * 60 + Seconds) / 86400.0
+mSp = (Hours * 3600 + Minutes * 60 + Seconds) / 86.4
+```
 
 Example:
 
